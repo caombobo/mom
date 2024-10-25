@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ 博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .post {
+            margin-bottom: 20px;
+        }
+
+        .post-title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .post-content {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+
+        video {
+            max-width: 100%;  /* 让视频自适应宽度 */
+            height: auto;     /* 保持视频比例 */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>C++ 博客</h1>
+    <p>记录C++编程知识和技巧</p>
+    <img src="images/my_image.jpg" alt=" " width="400" height="250">
+</header>
+
+<div class="container">
+    <article class="post">
+        <h2 class="post-title">C++ 中的 Hello, World!</h2>
+        <div class="post-content">
+            <p>我的梦想是创建属于自己的个人网页记录成长</p>
+            <pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() 
+{
+    cout << "Hello, World!" << endl;
+    return 0;
+}</code></pre>
+            <p>希望</p>
+
+            <!-- 插入视频 -->
+            <h2 class="post-title">妈妈天天开心</h2>
+            <video controls>
+                <source src="videos/my_video.mp4" type="video/mp4"> <!-- 确保路径正确 -->
+                您的浏览器不支持视频标签。
+            </video>
+        </div>
+    </article>
+</div>
+
+<footer>
+    <p>&copy; 2024 C++ 博客 | 曹飞洋</p>
+</footer>
+
+</body>
+</html>
